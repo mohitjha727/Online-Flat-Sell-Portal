@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    position: sticky;
+}
+
+#navbar ::before
+{
+    content: "";
+    background-color:black;
+    position: absolute;
+    display: inline-flex;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2rem;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:blue;
+}
+
+
+h1{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4.5rem;
+}
+
+h2{
+    color: rgb(156, 190, 92);
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+h3{
+    color:green;
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 9.9rem;
+}
+
+
+
+#home ::before{
+    content: "";
+    position: absolute;
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 650px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:1.5;
+}
+
+#aboutus
+{
+margin-top: 300px;
+background-color: brown;
+}
+
+
+#text_about_box p{
+    color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 2rem;
+    text-decoration-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+#gallery{ 
+    position: static;
+}
+
+#gallery::before{
+ content: "";
+ position: absolute;
+ background: url('house-images/1.jpg');
+ width:100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.6;
+}
+
+.h-primary{
+color: brown;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: aquamarine;
+margin-bottom: 10px;
+}
+
+.h-primary2{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 300px;
+    width: 500px;
+}
+
+.work-item{
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+    background-color: rgb(227, 227, 238);
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 7px solid olivedrab;
+    border-radius: 100px;
+}
+
+.work-item p{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(31, 29, 29);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details{
+    text-align: center;
+    margin-top: 30px;
+    background-color:rgb(211, 182, 187);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details h1{
+    color: purple;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 1.2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+
